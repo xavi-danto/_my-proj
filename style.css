@@ -1,0 +1,140 @@
+* {
+  text-align: center;
+  background-color: #71918B;
+}
+
+#page-container {
+  position: relative;
+  min-height: 70vh;
+  max-height: fit-content;
+}
+
+#content-wrap {
+  padding-bottom: 2rem;    
+}
+
+#footer {
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  height: 2rem; 
+  text-align: left;
+  font-family:'Montserrat', sans-serif;
+  font-size: smaller;
+  background-color: #71918B;
+  color: white;
+  border: 10px, #1E332F;
+}
+
+ul {
+  list-style-type: none;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #71918B;
+  font-family:'Montserrat', sans-serif;  
+  position: sticky;
+  border: 10px, #1E332F;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ol {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.3em;
+  text-align: left;
+  list-style-type: none;
+}
+
+li:hover {
+  color:#5EF7DB;
+}
+
+.desc {
+  font-family:'Montserrat', sans-serif;
+  font-size: smaller;
+  color: #fff;
+  text-align: justify;
+  margin: 20px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  padding: 1em;
+  color:#fff;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+img:hover {
+-moz-transform: scale(1.3);
+-webkit-transform: scale(1.3);
+-o-transform: scale(1.3);
+-ms-transform: scale(1.3);
+transform: scale(1.3);
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 6em;
+  word-spacing: 15%;
+  color:#fff;
+}
+
+h1:hover {
+  text-shadow: /* 0 0 5px #FFF, 0 0 5px #FFF, 0 0 5px #FFF, */ 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB
+}
+
+h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  color:#fff;
+}
+
+h2:hover {
+  color:#5EF7DB;
+}
+
+h3 {
+  font-size: 2em;
+  margin: 0.25em 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color:#fff;
+}
+
+p {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: larger;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: justify;
+  color:#fff;
+}
+
+div {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+
