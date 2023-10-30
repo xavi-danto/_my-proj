@@ -24,7 +24,7 @@
   font-size: smaller;
   background-color: #71918B;
   color: white;
-  border: 10px, #1E332F;
+  border-top: 3px groove #d5f1ec;
 }
 
 a {
@@ -40,7 +40,7 @@ ul {
   background-color: #71918B;
   font-family:'Montserrat', sans-serif;  
   position: sticky;
-  border: 10px, #1E332F;
+  border-bottom: 3px groove #d5f1ec;
 }
 
 li {
