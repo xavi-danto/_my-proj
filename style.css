@@ -174,7 +174,7 @@ i {
 h1 {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 6em;
-  word-spacing: 15%;
+  word-spacing: .5rem;
   color:#fff;
 }
 
