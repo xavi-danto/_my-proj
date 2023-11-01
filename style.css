@@ -14,6 +14,15 @@
   padding-bottom: 2rem;    
 }
 
+#page-container-1 {
+  position:absolute;
+  max-height: fit-content;
+}
+
+#content-wrap-1 {
+  padding-left:6.5rem;
+}
+
 #footer {
   position: sticky;
   bottom: 0;
@@ -27,10 +36,6 @@
   border-top: 3px groove #d5f1ec;
 }
 
-a {
-  color:white;
-}
-
 ul {
   list-style-type: none;
   top: 0;
@@ -41,6 +46,31 @@ ul {
   font-family:'Montserrat', sans-serif;  
   position: sticky;
   border-bottom: 3px groove #d5f1ec;
+  color:white;
+}
+
+ul a:link {
+  color:#fff;
+}
+
+ul a:visited {
+  color:#fff;
+}
+
+a:visited {
+  color:#5EF7DB;
+}
+
+a:link {
+  color:#5EF7DB;
+}
+
+a:hover {
+  color:white;
+}
+
+a:active {
+  color:#5EF7DB;
 }
 
 li {
@@ -56,18 +86,6 @@ li a {
   text-decoration:none;
 }
 
-li:visited {
-  color:#5EF7DB;
-}
-
-li:hover {
-  color:#5EF7DB;
-}
-
-li:active{
-  color:white;
-}
-
 ol {
   font-family: 'Space Grotesk', sans-serif;
   font-size: 1.3em;
@@ -80,7 +98,6 @@ ol {
   font-size: smaller;
   color: #fff;
   text-align: justify;
-  margin: 20px;
   position:relative;
   list-style-type: none;
   top:auto;
@@ -90,15 +107,29 @@ ol {
   background-color: #71918B;
   font-family:'Montserrat', sans-serif;  
   border: 20px;
-  margin-left: 5%;
+  margin-left: 10%;
   margin-right: 10%;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family:'Montserrat', sans-serif;  
   font-size: 16px;
   padding: 1em;
   color:#fff;
+}
+
+table {
+  display: grid;
+  width: 90%;
+  table-layout: fixed;
+  font-size: 20px;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 6px;
+  width: 40%;
+  text-align: left; 
 }
 
 .gallery {
@@ -114,10 +145,11 @@ body {
 }
 
 figure:hover {
+/* vendor extension not allowed?
 -moz-transform: scale(1.1);
 -webkit-transform: scale(1.1);
 -o-transform: scale(1.1);
--ms-transform: scale(1.1);
+-ms-transform: scale(1.1);*/
 transform: scale(1.1);
 }
 
@@ -141,7 +173,7 @@ h1 {
 }
 
 h1:hover {
-  text-shadow: /* 0 0 5px #FFF, 0 0 5px #FFF, 0 0 5px #FFF, */ 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB
+  text-shadow: 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB, 0 0 5px #5EF7DB
 }
 
 h2 {
@@ -168,6 +200,8 @@ p {
   margin-right: 10%;
   text-align: justify;
   color:#fff;
+  margin-top:auto;
+  margin-bottom: auto;
 }
 
 div {
