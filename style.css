@@ -36,6 +36,8 @@
   border-top: 3px groove #d5f1ec;
 }
 
+/*start nav bar*/
+
 ul {
   list-style-type: none;
   top: 0;
@@ -56,6 +58,8 @@ ul a:link {
 ul a:visited {
   color:#fff;
 }
+
+/*end nav bar*/
 
 a:visited {
   color:#5EF7DB;
@@ -164,6 +168,8 @@ figcaption {
 i {
   background-color: rgb(0,0,0,0);
 }
+
+/*text*/
 
 h1 {
   font-family: 'Space Grotesk', sans-serif;
